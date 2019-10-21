@@ -1,0 +1,51 @@
+html { 
+ font-size: 10px; 
+ font-family: Helvetica, Arial, sans-serif;
+}
+
+header, main { padding: 2.5rem;
+               line-height: 1.9; 
+			   }
+			   
+main {
+	max-width: 50%;
+	}
+
+h1 { 
+	font-size: 2.6rem; 
+	color: blue;
+	background-color: yellow;
+	border: 1px solid black;
+	}
+
+p,li {
+	font-size: 1.4rem; 
+    border-style: solid;
+    border-color: red green blue yellow;
+	color: DodgerBlue;
+	font-family: verdana;
+	background-color: Orange;
+    }
+
+p.ex1{
+	color: red;
+}
+
+li { 
+	line-height: 1.5; 
+	}
+
+body {
+	background-color: rgba(255, 99, 71, 0.4);
+	}
+
+a:link { color: #e60000; }
+
+a:visited { color: #990073; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }
+
+
+
